@@ -9,7 +9,8 @@ import "rsc.io/sampler"
 
 // Hello returns a greeting.
 func Hello() string {
-	return sampler.Hello()
+	sampler.Hello()
+	return Glass()
 }
 
 // Glass returns a useful phrase for world travelers.
